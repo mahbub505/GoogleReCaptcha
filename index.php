@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     
     
     include'autoload.php';
-    $authantication = TRUE;
+    $authantication = FALSE;
     if (isset($_POST['g-recaptcha-response'])) {
         $authantication = check_rechaptcha($_POST['g-recaptcha-response']);
     }
