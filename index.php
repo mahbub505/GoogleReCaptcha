@@ -2,8 +2,8 @@
 
 if (isset($_POST['submit'])) {
      function check_rechaptcha($response) {
-        $siteKey = '6LeZcBwTAAAAALPVUDPtSLR4aF-eL9JnjJC4qNaT';
-        $secret = '6LeZcBwTAAAAAJQgbO1KMeFRjXrvY75JxGzv9t2b';
+        $siteKey = 'Your siteKey';
+        $secret = 'Your secret';
         $lang = 'bn';
 
         $recaptcha = new \ReCaptcha\ReCaptcha($secret);
